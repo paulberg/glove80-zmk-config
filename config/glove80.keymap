@@ -12,7 +12,7 @@
 #include <dt-bindings/zmk/rgb.h>
 
 #define HYPER LC(LS(LG(LALT)))
-#define MEH LC(LS(LALT))
+// #define MEH LC(LS(LALT))
 
 // layers
 #define DEFAULT 0
@@ -104,7 +104,7 @@
             bindings = <
             &kp F1         &kp F2   &kp F3      &kp F4      &kp F5                                                                                         &kp F6  &kp F7      &kp F8      &kp F9      &kp F10
             &kp EQUAL      &kp N1   &kp N2      &kp N3      &kp N4      &kp N5                                                                     &kp N6  &kp N7  &kp N8      &kp N9      &kp N0      &kp MINUS
-            &kp TAB        &kp SQT  &kp COMMA   &kp DOT     &kp P       &kp Y                                                                      &kp F   &kp G   &kp C       &kp R       &kp L       &kp SLASH
+            &kp TAB        &kp SQT  &kp COMMA   &kp DOT     &kp P       &kp Y                                                                      &kp F   &kp G   &kp C       &kp R       &kp L       &kp FSLH
             &kp ESC        &kp A    &kp O       &kp E       &kp U       &kp I                                                                      &kp D   &kp H   &kp T       &kp N       &kp S       &kp BSLH
             &kp GRAVE      &kp SEMI &kp Q       &kp J       &kp K       &kp X   &kp LSHFT   &kp LCTRL   &layer_td  &kp LGUI  &kp RCTRL &kp RSHFT   &kp B   &kp M   &kp W       &kp V       &kp Z       &kp PG_UP
             &magic MAGIC 0 &kp HOME &kp END     &kp LEFT    &kp RIGHT           &kp BSPC    &kp DEL     &kp LALT   &kp RALT  &kp RET   &kp SPACE           &kp UP  &kp DOWN    &kp LBKT    &kp RBKT    &kp PG_DN
